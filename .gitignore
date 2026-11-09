@@ -1,0 +1,7 @@
+data/emb/
+data/raw/
+.venv/
+__pycache__/
+.pytest_cache/
+results/*.log
+.DS_Store

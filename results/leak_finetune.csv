@@ -1,0 +1,13 @@
+dataset,condition,bleu,token_f1,frac_f1_ge_0_5,exact
+msmarco_heldout,"native gtr, off-the-shelf, one-shot (reference)",14.148883405423394,0.5435140619681664,0.63,0.0
+fiqa,"native gtr, off-the-shelf, one-shot (reference)",11.249884785346337,0.48749929730981123,0.45,0.0
+msmarco_heldout,"bge -> gtr, off-the-shelf, one-shot",4.783847242578194,0.2675821510580534,0.05,0.0
+fiqa,"bge -> gtr, off-the-shelf, one-shot",4.298217130381807,0.2871269250465766,0.02,0.0
+msmarco_heldout,"bge -> gtr, fine-tuned inverter, one-shot",5.491501523659509,0.30372856473464127,0.1,0.0
+fiqa,"bge -> gtr, fine-tuned inverter, one-shot",5.378995367302658,0.3181330339668031,0.07,0.0
+msmarco_heldout,"minilm -> gtr, off-the-shelf, one-shot",3.8751776705398164,0.273530958012176,0.04,0.0
+fiqa,"minilm -> gtr, off-the-shelf, one-shot",3.2819582850198117,0.25783505425257525,0.02,0.0
+msmarco_heldout,"minilm -> gtr, fine-tuned inverter, one-shot",5.042325841251258,0.2867252362901026,0.06,0.0
+fiqa,"minilm -> gtr, fine-tuned inverter, one-shot",4.026048111495863,0.2841522450602596,0.03,0.0
+msmarco_heldout,"bge raw (no map), fine-tuned inverter, one-shot",2.2486992751222297,0.13441082781038688,0.0,0.0
+fiqa,"bge raw (no map), fine-tuned inverter, one-shot",2.0870213680794927,0.13646550948468888,0.0,0.0
